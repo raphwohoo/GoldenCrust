@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore Golden Crust bakery services for everyday treats, celebrations, gift boxes, and bulk orders.">
+  <title>Golden Crust - Services</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="logo.png" alt="Golden Crust Logo" class="logo-img">
+        Golden Crust
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navMenu"
+        aria-controls="navMenu"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#story">Why Us</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#schedule">Schedule</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link cart-nav-link" href="cart.html">Cart <span class="cart-count" aria-label="items in cart">0</span></a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-login ms-lg-2 px-3" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero menu-hero">
+    <span class="eyebrow">More than just a bakery</span>
+    <h1>Our Services</h1>
+    <p>From everyday cravings to special celebrations, we are ready to make your moment sweeter.</p>
+    <a href="index.html#schedule" class="btn btn-hero btn-lg mt-2">Plan a Pickup</a>
+  </header>
+
+  <main class="container">
+    <section class="services-section services-page-section" aria-labelledby="services-title">
+      <div class="services-heading">
+        <span class="eyebrow eyebrow-dark">Made for every occasion</span>
+        <h2 id="services-title" class="section-title mt-2">Choose what feels right for you</h2>
+        <p class="section-description">Whether you are looking for a quick treat, a thoughtful gift, or something memorable for a celebration, Golden Crust has a freshly baked option for you.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <article class="service-card">
+            <span class="service-number">01</span>
+            <h3>Fresh Daily Bakes</h3>
+            <p>Enjoy breads, pastries, cookies, and cupcakes baked fresh for the day.</p>
+            <a href="products.html" class="service-link">View the menu <span aria-hidden="true">&rarr;</span></a>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <article class="service-card">
+            <span class="service-number">02</span>
+            <h3>Custom Cakes</h3>
+            <p>Request a cake for birthdays, anniversaries, graduations, and other celebrations.</p>
+            <a href="index.html#contact" class="service-link">Request a cake <span aria-hidden="true">&rarr;</span></a>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <article class="service-card">
+            <span class="service-number">03</span>
+            <h3>Party Packages</h3>
+            <p>Choose pastry boxes, dessert trays, and baked goods for gatherings and events.</p>
+            <a href="index.html#contact" class="service-link">Ask about packages <span aria-hidden="true">&rarr;</span></a>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <article class="service-card">
+            <span class="service-number">04</span>
+            <h3>Pre-order Pickup</h3>
+            <p>Reserve your favorite treats in advance and choose a convenient pickup date.</p>
+            <a href="index.html#schedule" class="service-link">Choose a date <span aria-hidden="true">&rarr;</span></a>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <article class="service-card">
+            <span class="service-number">05</span>
+            <h3>Gift Boxes</h3>
+            <p>Send a thoughtfully prepared box of cookies, cupcakes, and pastries to someone special.</p>
+            <a href="index.html#contact" class="service-link">Plan a gift box <span aria-hidden="true">&rarr;</span></a>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <article class="service-card">
+            <span class="service-number">06</span>
+            <h3>Bulk Orders</h3>
+            <p>We prepare larger orders for offices, school events, parties, and community gatherings.</p>
+            <a href="index.html#contact" class="service-link">Start an inquiry <span aria-hidden="true">&rarr;</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-cta-section" aria-labelledby="service-cta-title">
+      <div class="service-cta-card">
+        <div>
+          <span class="eyebrow eyebrow-dark">Ready when you are</span>
+          <h2 id="service-cta-title">Have a sweet idea in mind?</h2>
+          <p>Browse the menu or choose a pickup date to start planning your next Golden Crust moment.</p>
+        </div>
+        <div class="service-cta-actions">
+          <a href="products.html" class="btn btn-add">Browse the Menu</a>
+          <a href="index.html#schedule" class="btn btn-story-outline">Choose a Date</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Golden Crust. All Rights Reserved.</p>
+  </footer>
+
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title h5">Login to Golden Crust</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="login.php" method="POST">
+            <div class="mb-3">
+              <label class="form-label" for="loginEmail">Email address</label>
+              <input id="loginEmail" type="email" name="email" class="form-control" placeholder="you@example.com" autocomplete="email" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="loginPassword">Password</label>
+              <input id="loginPassword" type="password" name="password" class="form-control" placeholder="Enter password" autocomplete="current-password" required>
+            </div>
+            <button type="submit" class="btn btn-add w-100">Login</button>
+            <p class="text-center mt-3 mb-0">Don't have an account? <a href="signup.php">Sign up</a></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="signupModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title h5">Create a Golden Crust Account</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form onsubmit="alert('Account created successfully!'); return false;">
+            <div class="mb-3">
+              <label class="form-label" for="signupName">Full Name</label>
+              <input id="signupName" type="text" class="form-control" placeholder="Surname, First Name, MI" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="signupEmail">Email address</label>
+              <input id="signupEmail" type="email" class="form-control" placeholder="you@example.com" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="signupPassword">Password</label>
+              <input id="signupPassword" type="password" class="form-control" placeholder="Create a password" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="signupConfirmPassword">Confirm Password</label>
+              <input id="signupConfirmPassword" type="password" class="form-control" placeholder="Re-enter password" required>
+            </div>
+            <button type="submit" class="btn btn-add w-100">Sign Up</button>
+            <p class="text-center mt-3 mb-0">Already have an account? <a href="login.php">Login</a></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js?v=checkout-auth-v1"></script>
+</body>
+
+</html>

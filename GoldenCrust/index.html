@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Golden Crust - Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="logo.png" alt="Golden Crust Logo" class="logo-img">
+      Golden Crust
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#story">Why Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
+        <li class="nav-item"><a class="nav-link" href="products.html">Menu</a></li>
+        <li class="nav-item"><a class="nav-link cart-nav-link" href="cart.html">Cart <span class="cart-count" aria-label="items in cart">0</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-login ms-lg-2 px-3" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="hero home-hero" id="home">
+  <h1>Golden Crust</h1>
+  <p>Freshly baked bread, pastries, and cakes made every morning.</p>
+  <a href="products.html" class="btn btn-hero btn-lg mt-2">View Our Menu</a>
+</div>
+
+<div class="container">
+
+  
+  <section id="about">
+    <h2 class="section-title">Company Background</h2>
+    <p>
+      Golden Crust Bakery is a small home-based bakery established in 2026 that specializes in freshly baked breads, pastries, cakes, and other homemade treats. The business started from a simple passion for baking and gradually grew by serving family, friends, and customers in the local community. Golden Crust focuses on providing fresh, affordable, and quality baked products while maintaining good customer service. As the business continues to grow, the company aims to improve its order and ingredient management to make its daily operations more organized and efficient.
+    </p>
+  </section>
+
+  <section class="featured-section" aria-labelledby="featured-title">
+    <div class="featured-heading">
+      <div>
+        <span class="eyebrow eyebrow-dark">Featured favorites</span>
+        <h2 id="featured-title" class="section-title mt-2">Our best sellers</h2>
+      </div>
+      <p>Warm from the oven, made for the moments you want to remember.</p>
+    </div>
+
+    <div class="featured-grid">
+      <a class="featured-card" href="products.html" aria-label="Explore Chocolate Cookies">
+        <img src="https://plus.unsplash.com/premium_photo-1725384940713-45cdbbb49d94?w=700&auto=format&fit=crop&q=80" alt="Golden chocolate cookies" loading="lazy">
+        <span class="featured-card-copy">
+          <small>Best seller</small>
+          <strong>Chocolate Cookies</strong>
+          <span>Explore the menu&nbsp; ↗</span>
+        </span>
+      </a>
+
+      <a class="featured-card" href="products.html" aria-label="Explore Honey Glazed Donuts">
+        <img src="https://media.istockphoto.com/id/496948842/photo/glazed-donuts.webp?a=1&b=1&s=612x612&w=0&k=20&c=P43D5_pw9HNrMP1sIFOrULXfm20JBxexDLtDR1to9zU=" alt="Fresh honey glazed donuts" loading="lazy">
+        <span class="featured-card-copy">
+          <small>Golden favorite</small>
+          <strong>Honey Glazed Donut</strong>
+          <span>Explore the menu&nbsp; ↗</span>
+        </span>
+      </a>
+
+      <a class="featured-card" href="products.html" aria-label="Explore Croissants">
+        <img src="https://plus.unsplash.com/premium_photo-1661743823829-326b78143b30?w=700&auto=format&fit=crop&q=80" alt="Flaky golden croissants" loading="lazy">
+        <span class="featured-card-copy">
+          <small>Fresh from the oven</small>
+          <strong>Butter Croissant</strong>
+          <span>Explore the menu&nbsp; ↗</span>
+        </span>
+      </a>
+    </div>
+  </section>
+
+  
+  <section id="story" class="story-section" aria-labelledby="story-title">
+    <div class="story-heading">
+      <div>
+        <span class="eyebrow eyebrow-dark">The Golden Crust difference</span>
+        <h2 id="story-title" class="section-title mt-2">Made for your sweetest moments</h2>
+      </div>
+      <p class="story-helper">A little warmth, freshness, and sweetness in every visit.</p>
+    </div>
+
+    <div id="goldenCrustCarousel" class="carousel slide story-carousel" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#goldenCrustCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Fresh every morning"></button>
+        <button type="button" data-bs-target="#goldenCrustCarousel" data-bs-slide-to="1" aria-label="Made with care"></button>
+        <button type="button" data-bs-target="#goldenCrustCarousel" data-bs-slide-to="2" aria-label="A treat for every moment"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="story-slide">
+            <div class="story-copy">
+              <span class="story-number">01 / FRESHNESS</span>
+              <h3>Fresh from our oven to your table.</h3>
+              <p>We bake our breads, pastries, and cakes with care so every bite arrives soft, fragrant, and full of homemade comfort.</p>
+              <a href="products.html" class="btn btn-story">Explore the menu</a>
+            </div>
+            <div class="story-visual">
+              <img src="https://plus.unsplash.com/premium_photo-1661743823829-326b78143b30?w=900&auto=format&fit=crop&q=80" alt="Golden flaky croissants fresh from the oven" loading="lazy">
+              <div class="visual-badge">Baked fresh<br><strong>every morning</strong></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="story-slide">
+            <div class="story-copy">
+              <span class="story-number">02 / CARE</span>
+              <h3>Simple ingredients. Thoughtful baking.</h3>
+              <p>From buttery layers to creamy frosting, each Golden Crust favorite is prepared to feel special without losing its familiar, comforting taste.</p>
+              <a href="#contact" class="btn btn-story">Get in touch</a>
+            </div>
+            <div class="story-visual">
+              <img src="https://images.unsplash.com/photo-1519869325930-281384150729?w=900&auto=format&fit=crop&q=80" alt="A beautifully decorated vanilla cupcake" loading="lazy">
+              <div class="visual-badge">Made with<br><strong>golden care</strong></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="story-slide">
+            <div class="story-copy">
+              <span class="story-number">03 / JOY</span>
+              <h3>There is always room for one more treat.</h3>
+              <p>Whether it is a quick merienda, a family celebration, or a gift for someone special, Golden Crust is here to make the moment sweeter.</p>
+              <a href="products.html" class="btn btn-story">Find your favorite</a>
+            </div>
+            <div class="story-visual">
+              <img src="https://media.istockphoto.com/id/496948842/photo/glazed-donuts.webp?a=1&b=1&s=612x612&w=0&k=20&c=P43D5_pw9HNrMP1sIFOrULXfm20JBxexDLtDR1to9zU=" alt="Golden glazed donuts ready to enjoy" loading="lazy">
+              <div class="visual-badge">Share the<br><strong>sweetness</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#goldenCrustCarousel" data-bs-slide="prev" aria-label="Previous slide">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#goldenCrustCarousel" data-bs-slide="next" aria-label="Next slide">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </section>
+
+ 
+  <section id="schedule" class="schedule-section" aria-labelledby="schedule-title">
+    <div class="schedule-card">
+      <div class="schedule-copy">
+        <span class="eyebrow">Plan ahead</span>
+        <h2 id="schedule-title">Choose your preferred pickup date</h2>
+        <p>Select a date and time for your order request. This is a client-side preview for now; the bakery team can confirm availability later.</p>
+        <div class="schedule-note"><strong>Friendly reminder:</strong> Please give us at least one day to prepare most orders.</div>
+      </div>
+
+      <form id="scheduleForm" class="schedule-form">
+        <div class="mb-3">
+          <label for="scheduleService" class="form-label">What would you like to arrange?</label>
+          <select id="scheduleService" class="form-select" required>
+            <option value="">Choose a service</option>
+            <option>Fresh daily bakes</option>
+            <option>Custom cake</option>
+            <option>Party package</option>
+            <option>Gift box</option>
+            <option>Bulk order</option>
+          </select>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label for="pickupDate" class="form-label">Preferred pickup date</label>
+            <input type="text" id="pickupDate" class="form-control" placeholder="Select a pickup date" autocomplete="off" required>
+          </div>
+
+          <div class="col-md-6">
+            <label for="pickupTime" class="form-label">Preferred pickup time</label>
+            <select id="pickupTime" class="form-select" required>
+              <option value="">Choose a time</option>
+              <option>9:00 AM - 11:00 AM</option>
+              <option>11:00 AM - 1:00 PM</option>
+              <option>1:00 PM - 3:00 PM</option>
+              <option>3:00 PM - 5:00 PM</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="mb-3 mt-3">
+          <label for="scheduleNotes" class="form-label">Additional notes <span class="optional-label">(optional)</span></label>
+          <textarea id="scheduleNotes" class="form-control" rows="3" placeholder="Tell us about your order or celebration..."></textarea>
+        </div>
+
+        <div class="form-check mb-3">
+          <input type="checkbox" class="form-check-input" id="scheduleAgreement" required>
+          <label class="form-check-label" for="scheduleAgreement">I understand that this is a request and not a final confirmed order.</label>
+        </div>
+
+        <button type="submit" class="btn btn-add schedule-submit">Check Schedule</button>
+        <p id="scheduleMessage" class="schedule-message mb-0" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <p>Address: 123 Sample Street, Quezon City, Philippines</p>
+    <p>Email: goldencrustbakery@example.com</p>
+    <p>Phone: 0912-345-6789</p>
+  </section>
+
+</div>
+
+
+<footer>
+  <p>&copy; 2026 Golden Crust. All Rights Reserved.</p>
+</footer>
+
+
+<div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title h5">Login to Golden Crust</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <form action="login.php" method="POST">
+          <div class="mb-3">
+            <label class="form-label">Email address</label>
+            <input type="email" name="email" class="form-control" placeholder="you@example.com" autocomplete="email" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Password</label>
+            <input type="password" name="password" class="form-control" placeholder="Enter password" autocomplete="current-password" required>
+          </div>
+          <button type="submit" class="btn btn-add w-100">Login</button>
+          <p class="text-center mt-3 mb-0">
+            Don't have an account?
+            <a href="signup.php">Sign up</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="signupModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title h5">Create a Golden Crust Account</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <form onsubmit="alert('Account created successfully!'); return false;">
+          <div class="mb-3">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-control" placeholder="Surname, First Name, MI" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Email address</label>
+            <input type="email" class="form-control" placeholder="you@example.com" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Password</label>
+            <input type="password" class="form-control" placeholder="Create a password" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Confirm Password</label>
+            <input type="password" class="form-control" placeholder="Re-enter password" required>
+          </div>
+          <button type="submit" class="btn btn-add w-100">Sign Up</button>
+          <p class="text-center mt-3 mb-0">
+            Already have an account?
+            <a href="login.php">Login</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js?v=checkout-auth-v1"></script>
+</body>
+</html>
